@@ -1,7 +1,8 @@
 .deps/
 .venv/
+.agents/
+.tmp/
 .tmp-kind/
-evidence/*.json
-!evidence/.gitkeep
+evidence/
 __pycache__/
 *.py[cod]

@@ -12,5 +12,5 @@ histogram_quantile(0.95, sum(rate(istio_request_duration_milliseconds_bucket[1m]
 
 Expected result:
 
-- Request counters increase when the frontend or `scripts/evidence-run.ps1` generates traffic.
+- Request counters increase when the frontend or `load-test.js` generates traffic.
 - Error/timeout traffic appears when calling `/payment?mode=slow`.

@@ -9,7 +9,7 @@ kubectl port-forward -n istio-system svc/grafana 13000:3000
 Start-Process http://127.0.0.1:13000
 ```
 
-Screenshots to capture for the report:
+Useful checks:
 
 - Request volume while k6 is running.
 - Request duration or p95 latency.

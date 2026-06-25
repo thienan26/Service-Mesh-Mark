@@ -29,7 +29,6 @@ meshmart-service-mesh/
 |-- istio/
 |-- observability/
 |-- docs/
-|-- scripts/
 |-- docker-compose.yml
 |-- README.md
 ```
@@ -150,8 +149,9 @@ The platform is designed to answer practical distributed-system questions:
 
 Useful files:
 
-- [docs/PRESENTATION_ARCHITECTURE_SCRIPT.md](docs/PRESENTATION_ARCHITECTURE_SCRIPT.md)
-- [docs/REPORT.md](docs/REPORT.md)
+- [docs/API.md](docs/API.md)
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- [docs/DOCKER.md](docs/DOCKER.md)
 - [docs/EVALUATION.md](docs/EVALUATION.md)
 - [docs/KUBERNETES_ISTIO.md](docs/KUBERNETES_ISTIO.md)
 - [observability/README.md](observability/README.md)
