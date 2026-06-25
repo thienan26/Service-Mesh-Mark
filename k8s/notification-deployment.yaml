@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: notification-service
-          image: service-mesh-observability-demo/notification-service:v1.0.0-demo
+          image: meshmart-service-mesh/notification-service:v1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8003

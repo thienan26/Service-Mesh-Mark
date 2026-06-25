@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: payment-service
-          image: service-mesh-observability-demo/payment-service:v1.0.0-demo
+          image: meshmart-service-mesh/payment-service:v1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8002
